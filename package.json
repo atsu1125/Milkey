@@ -61,7 +61,7 @@
 		"@syuilo/aiscript": "0.11.1",
 		"@types/bcryptjs": "2.4.6",
 		"@types/bull": "4.10.4",
-		"@types/cbor": "6.0.0",
+		"@types/cbor": "6.0.4",
 		"@types/double-ended-queue": "2.1.7",
 		"@types/escape-regexp": "0.0.3",
 		"@types/fluent-ffmpeg": "2.1.26",

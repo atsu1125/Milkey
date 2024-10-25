@@ -25,7 +25,7 @@ specifiers:
   '@syuilo/aiscript': 0.11.1
   '@types/bcryptjs': 2.4.6
   '@types/bull': 4.10.4
-  '@types/cbor': 6.0.0
+  '@types/cbor': 6.0.4
   '@types/double-ended-queue': 2.1.7
   '@types/escape-regexp': 0.0.3
   '@types/fluent-ffmpeg': 2.1.26
@@ -263,7 +263,7 @@ dependencies:
   '@syuilo/aiscript': 0.11.1
   '@types/bcryptjs': 2.4.6
   '@types/bull': 4.10.4
-  '@types/cbor': 6.0.0
+  '@types/cbor': 6.0.4
   '@types/double-ended-queue': 2.1.7
   '@types/escape-regexp': 0.0.3
   '@types/fluent-ffmpeg': 2.1.26
@@ -1199,8 +1199,8 @@ packages:
       '@types/responselike': 1.0.0
     dev: false
 
-  /@types/cbor/6.0.0:
-    resolution: {integrity: sha512-mGQ1lbYOwVti5Xlarn1bTeBZqgY0kstsdjnkoEovgohYKdBjGejHyNGXHdMBeqyQazIv32Jjp33+5pBEaSRy2w==}
+  /@types/cbor/6.0.4:
+    resolution: {integrity: sha512-Mgo9dwJw9o4K3buIAVChFwud9WQTz4vLgWv7z8RVQnY6vIocZaDTr6Yxa8ldKCyQO5w1rBb5ovzBpfGMOgWZEQ==}
     deprecated: This is a stub types definition. cbor provides its own type definitions, so you do not need this installed.
     dependencies:
       cbor: 8.1.0
