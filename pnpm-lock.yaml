@@ -24,7 +24,7 @@ specifiers:
   '@sinonjs/fake-timers': 10.0.2
   '@syuilo/aiscript': 0.11.1
   '@types/bcryptjs': 2.4.6
-  '@types/bull': 4.10.0
+  '@types/bull': 4.10.4
   '@types/cbor': 6.0.0
   '@types/double-ended-queue': 2.1.7
   '@types/escape-regexp': 0.0.3
@@ -262,7 +262,7 @@ dependencies:
   '@sinonjs/fake-timers': 10.0.2
   '@syuilo/aiscript': 0.11.1
   '@types/bcryptjs': 2.4.6
-  '@types/bull': 4.10.0
+  '@types/bull': 4.10.4
   '@types/cbor': 6.0.0
   '@types/double-ended-queue': 2.1.7
   '@types/escape-regexp': 0.0.3
@@ -1181,8 +1181,8 @@ packages:
       '@types/node': 18.11.18
     dev: false
 
-  /@types/bull/4.10.0:
-    resolution: {integrity: sha512-RkYW8K2H3J76HT6twmHYbzJ0GtLDDotpLP9ah9gtiA7zfF6peBH1l5fEiK0oeIZ3/642M7Jcb9sPmor8Vf4w6g==}
+  /@types/bull/4.10.4:
+    resolution: {integrity: sha512-A+8uxa5GbzKcS7kZ9Z1OcOeSyrvVmfHtZi3VIrH1Gws0G0sTknB2SRllxTaAYhycGn7+nC0Pb8VjxIyZiTM81A==}
     deprecated: This is a stub types definition. bull provides its own type definitions, so you do not need this installed.
     dependencies:
       bull: 4.10.4
