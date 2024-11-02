@@ -82,7 +82,7 @@ specifiers:
   '@types/webpack': 4.41.40
   '@types/webpack-stream': 3.2.15
   '@types/websocket': 1.0.10
-  '@types/ws': 8.5.12
+  '@types/ws': 8.5.13
   '@typescript-eslint/eslint-plugin': 5.45.0
   '@typescript-eslint/parser': 5.39.0
   '@vue/compiler-sfc': 3.2.47
@@ -320,7 +320,7 @@ dependencies:
   '@types/webpack': 4.41.40
   '@types/webpack-stream': 3.2.15
   '@types/websocket': 1.0.10
-  '@types/ws': 8.5.12
+  '@types/ws': 8.5.13
   '@vue/compiler-sfc': 3.2.47
   abort-controller: 3.0.0
   apexcharts: 3.35.3
@@ -1775,8 +1775,8 @@ packages:
       '@types/node': 18.11.18
     dev: false
 
-  /@types/ws/8.5.12:
-    resolution: {integrity: sha512-3tPRkv1EtkDpzlgyKyI8pGsGZAGPEaXeu0DOj5DI25Ja91bdAYddYHbADRYVrZMRbfW+1l5YwXVDKohDJNQxkQ==}
+  /@types/ws/8.5.13:
+    resolution: {integrity: sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA==}
     dependencies:
       '@types/node': 18.11.18
     dev: false
