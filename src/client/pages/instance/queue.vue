@@ -16,11 +16,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { faExchangeAlt } from '@fortawesome/free-solid-svg-icons';
+import { faExchangeAlt, faBullseye } from '@fortawesome/free-solid-svg-icons';
 import { faTrashAlt } from '@fortawesome/free-regular-svg-icons';
 import MkButton from '@/components/ui/button.vue';
 import XQueue from './queue.chart.vue';
 import * as os from '@/os';
+import * as config from '@/config';
 
 export default defineComponent({
 	components: {
@@ -33,6 +34,12 @@ export default defineComponent({
 			INFO: {
 				title: this.$ts.jobQueue,
 				icon: faExchangeAlt,
+				action: {
+					icon: faBullseye,
+					handler: () => {
+						window.open(config.url + '/queue', '_blank');
+					},
+				},
 			},
 			connection: os.stream.useSharedConnection('queueStats'),
 			faExchangeAlt, faTrashAlt

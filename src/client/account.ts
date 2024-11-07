@@ -17,7 +17,7 @@ const data = localStorage.getItem('account');
 const i = data !== null ? JSON.parse(data) as Account : null;
 
 // https://github.com/syuilo/misskey/issues/7107 を発症してしまった場合への対策
-if (i && i.token === null) { 
+if (i && i.token === null) {
 	localStorage.removeItem('account');
 }
 
@@ -40,7 +40,7 @@ export function signout() {
 	}
 }
 
-export function signoutAll() { 
+export function signoutAll() {
 	localStorage.removeItem('account');
 	localStorage.removeItem('accounts');
 	document.cookie = `igi=; path=/`;
@@ -101,6 +101,7 @@ export async function login(token: Account['token']) {
 	if (_DEV_) console.log('logging as token ', token);
 	const me = await fetchAccount(token);
 	localStorage.setItem('account', JSON.stringify(me));
+	document.cookie = `token=${token}; path=/; max-age=31536000`; // bull dashboardの認証とかで使う
 	addAccount(me.id, token);
 	location.reload();
 }

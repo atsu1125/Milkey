@@ -59,6 +59,13 @@ export const inboxQueue = initializeQueue('inbox', config.inboxJobPerSec || 16);
 export const dbQueue = initializeQueue('db');
 export const objectStorageQueue = initializeQueue('objectStorage');
 
+export const queues = [
+	deliverQueue,
+	inboxQueue,
+	dbQueue,
+	objectStorageQueue,
+];
+
 const deliverLogger = queueLogger.createSubLogger('deliver');
 const inboxLogger = queueLogger.createSubLogger('inbox');
 const dbLogger = queueLogger.createSubLogger('db');
