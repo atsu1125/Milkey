@@ -15,6 +15,13 @@ const blockedHost = [
 ];
 
 module.exports = async (ctx: Koa.Context) => {
+	if (config.disableUrlPreview) {
+		ctx.status = 200;
+		ctx.set('Cache-Control', 'public, max-age=600');
+		ctx.body = '{}';
+		return;
+	}
+	
 	const url = new URL(ctx.query.url);
 
 	if (blockedHost.some(host => url.hostname.includes(host))) {
