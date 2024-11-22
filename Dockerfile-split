@@ -1,4 +1,4 @@
-FROM node:18.20.4-bookworm
+FROM node:18.20.5-bookworm
 
 ENV NODE_ENV=development
 
