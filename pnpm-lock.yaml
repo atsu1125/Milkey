@@ -54,7 +54,7 @@ specifiers:
   '@types/koa__router': 8.0.11
   '@types/markdown-it': 12.2.3
   '@types/matter-js': 0.18.5
-  '@types/mocha': 10.0.9
+  '@types/mocha': 10.0.10
   '@types/node': 18.11.18
   '@types/node-fetch': 2.6.12
   '@types/nodemailer': 6.4.16
@@ -295,7 +295,7 @@ dependencies:
   '@types/koa__router': 8.0.11
   '@types/markdown-it': 12.2.3
   '@types/matter-js': 0.18.5
-  '@types/mocha': 10.0.9
+  '@types/mocha': 10.0.10
   '@types/node': 18.11.18
   '@types/node-fetch': 2.6.12
   '@types/nodemailer': 6.4.16
@@ -1783,8 +1783,8 @@ packages:
     resolution: {integrity: sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==}
     dev: false
 
-  /@types/mocha/10.0.9:
-    resolution: {integrity: sha512-sicdRoWtYevwxjOHNMPTl3vSfJM6oyW8o1wXeI7uww6b6xHg8eBznQDNSGBCDJmsE8UMxP05JgZRtsKbTqt//Q==}
+  /@types/mocha/10.0.10:
+    resolution: {integrity: sha512-xPyYSz1cMPnJQhl0CLMH68j3gprKZaTjG3s5Vi+fDgx+uhG9NOXwbVt52eFS8ECyXhyKcjDLCBEqBExKuiZb7Q==}
     dev: false
 
   /@types/node-fetch/2.6.12:
