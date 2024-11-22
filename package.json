@@ -93,7 +93,7 @@
 		"@types/mocha": "10.0.10",
 		"@types/node": "18.11.18",
 		"@types/node-fetch": "2.6.12",
-		"@types/nodemailer": "6.4.16",
+		"@types/nodemailer": "6.4.17",
 		"@types/nprogress": "0.2.3",
 		"@types/oauth": "0.9.6",
 		"@types/object-assign-deep": "0.4.3",
