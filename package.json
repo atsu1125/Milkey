@@ -45,9 +45,9 @@
 	},
 	"dependencies": {
 		"@babel/plugin-transform-runtime": "7.12.15",
-		"@bull-board/api": "6.3.3",
-		"@bull-board/koa": "6.3.3",
-		"@bull-board/ui": "6.3.3",
+		"@bull-board/api": "6.5.4",
+		"@bull-board/koa": "6.5.4",
+		"@bull-board/ui": "6.5.4",
 		"@elastic/elasticsearch": "7.10.0",
 		"@fortawesome/fontawesome-svg-core": "1.2.36",
 		"@fortawesome/free-brands-svg-icons": "5.15.4",
